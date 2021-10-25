@@ -1,0 +1,25 @@
+@import '@/assets/scss/index.scss';
+
+
+span{
+    color: $cor1;
+}
+h1{
+    color: $cor2;
+    font-weight: bold;
+}
+i{
+    color: $cor1;
+}
+#cart{
+    font-size: 32px;
+}
+#cartItens{
+    font-size: 12px;
+    color: $cor5;
+}
+p{
+    color: $cor2;
+}
+
+

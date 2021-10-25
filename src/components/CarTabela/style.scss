@@ -1,0 +1,37 @@
+@import '@/assets/scss/index.scss';
+@import '../../../node_modules/@fortawesome/fontawesome-free/css/all.css';
+
+
+.borderTable , #totalCompra{
+    border-bottom: solid 1px $cor2;
+}
+.categ{
+    color: $cor1;
+    font-weight: bold;
+}
+.itemcart{
+    font-weight: bold;
+}
+.value{
+    width: 50px;
+}
+.hovereffect:hover{
+    background-color: $cor1;
+    color: $cor5;
+}
+.btnContComprando{
+    background-color: $cor2;
+    color: $cor4;
+}
+.btnConcluirCompra{
+    background-color: $cor1;
+    color: $cor5;
+}
+
+i:hover{
+    cursor: pointer;
+}
+.mob_style{
+    font-weight: bold;
+    color: $cor1;
+}

@@ -1,0 +1,17 @@
+@import '@/assets/scss/index.scss';
+@import '../../../node_modules/@fortawesome/fontawesome-free/css/all.css';
+
+
+p{
+    color: $cor2;
+    font-weight: bold;
+}
+button{
+    background-color: $cor1;
+    border: none;
+    border-radius: 0;
+}
+input{
+    border-radius: 0;
+}
+

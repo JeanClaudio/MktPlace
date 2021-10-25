@@ -1,0 +1,32 @@
+@import '@/assets/scss/index.scss';
+
+p{
+    color: $cor2;
+}
+.categoria{
+    font-weight: bold;
+    color: $cor1 !important;
+}
+button{
+    width: 100%;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: $cor1 !important;
+    border: none;
+    border-top: solid 1px $cor2;
+    background-color: white;
+}
+button:hover{
+    background-color: $cor1;
+    color: $cor5 !important
+}
+#descricao{
+    max-height: 100px;
+    min-height: 100px;
+    
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+#prodName{
+    height: 50px;
+}

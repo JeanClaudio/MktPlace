@@ -1,0 +1,27 @@
+@import '@/assets/scss/index.scss';
+
+#containerBanner{
+    height: 350px;
+}
+input{
+    color: $cor1;
+    background-color: $cor2;
+}
+button{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: $cor2;
+    border: solid 2px $cor1;
+    margin: 10px;
+    background-color: white;
+}
+#Imgbanner{
+    animation: fadeInLeft; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 1s; /* don't forget to set a duration! */
+}
+#Imgbanner2{
+    animation: fadeInRight; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 1s; /* don't forget to set a duration! */
+    display: none;
+}
